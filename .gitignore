@@ -1,0 +1,54 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Trained model binaries (large files — regenerate with step2_train_models.py)
+models/*.pkl
+
+# ── Generated / intermediate data (regenerate with step1_prepare_data.py)
+data/merged_clean.csv
+
+# ── Malformed directory (artifact from file system error)
+{data/
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+.streamlit/
+
+# ── Secrets / credentials (never commit these) ────────────────────────────────
+.env
+secrets.toml
+config.toml
