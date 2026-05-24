@@ -101,13 +101,6 @@ Historical Data (2010–2025)                               ┌─────�
 
 *Simulated 15-day storage under each of the 4 named release protocols. Shaded green band = P10–P90 uncertainty range for the OPTIMAL strategy. Red/amber dashed lines = flood and drought thresholds.*
 
-### Model Evaluation Plots
-
-| Model 1 — Rainfall Bias Corrector | Model 2 — Storage Predictor |
-|---|---|
-| ![Model 1 Eval](plots/rainfall_model_eval.png) | ![Model 2 Eval](plots/storage_model_eval.png) |
-
----
 
 ## ⚙️ Features
 
